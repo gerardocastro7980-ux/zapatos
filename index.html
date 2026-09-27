@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Collection</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <!-- =========================================
+             GALERÍA PRINCIPAL
+        ========================================= -->
+
+        <section class="galeria">
+
+            <div class="encabezado">
+
+                <span>
+                    COLLECTION
+                </span>
+
+                <span id="contador">
+                    01 / 05
+                </span>
+
+            </div>
+
+
+            <div class="intro">
+
+                <div class="intro-linea"></div>
+
+                <p>
+                    FOOTWEAR / 2026
+                </p>
+
+                <h1>
+                    THE<br>
+                    COLLECTION.
+                </h1>
+
+                <span>
+                    A selection of footwear.
+                </span>
+
+            </div>
+
+
+            <div class="visor">
+
+                <button
+                    id="anterior"
+                    class="flecha izquierda"
+                    type="button"
+                >
+                    ←
+                </button>
+
+
+                <div class="foto">
+
+                    <img
+                        id="fotoPrincipal"
+                        src="fotos/persona1.jpg"
+                        alt="Persona usando zapatos"
+                    >
+
+                    <div class="nombre-foto">
+                        COLLECTION 01
+                    </div>
+
+                </div>
+
+
+                <button
+                    id="siguiente"
+                    class="flecha derecha"
+                    type="button"
+                >
+                    →
+                </button>
+
+            </div>
+
+
+            <div
+                id="puntos"
+                class="puntos"
+            ></div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             SECCIÓN DE ZAPATOS
+        ========================================= -->
+
+        <section class="zapatos">
+
+            <div class="titulo-seccion">
+
+                <div class="titulo-numero">
+                    03 MODELS
+                </div>
+
+                <p>
+                    ADIDAS / CAMPUS 00s
+                </p>
+
+                <h1>
+                    THE<br>
+                    SHOES.
+                </h1>
+
+                <span>
+                    Three colorways. One silhouette.
+                </span>
+
+            </div>
+
+
+            <div class="zapatos-grid">
+
+
+                <!-- =================================
+                     MODELO 01
+                ================================= -->
+
+                <div class="modelo-contenedor">
+
+                    <div class="modelo-info lateral-info">
+
+                        <span class="info-numero">
+                            01
+                        </span>
+
+                        <div class="info-linea"></div>
+
+                        <strong>
+                            CAMPUS 00s
+                        </strong>
+
+                        <span>
+                            GREEN
+                        </span>
+
+                        <small>
+                            ADIDAS
+                        </small>
+
+                        <small>
+                            2026 / COLORWAY 01
+                        </small>
+
+                    </div>
+
+
+                    <button
+                        class="zapato zapato-verde"
+                        data-imagen="fotos/zapato1.jpg"
+                        type="button"
+                    >
+
+                        <div class="numero-modelo">
+                            01
+                        </div>
+
+                        <div class="zapato-imagen">
+
+                            <img
+                                src="fotos/zapato1.jpg"
+                                alt="Adidas Campus 00s verde"
+                            >
+
+                        </div>
+
+                        <div class="zapato-info">
+
+                            <div>
+
+                                <strong>
+                                    CAMPUS 00s
+                                </strong>
+
+                                <span>
+                                    GREEN
+                                </span>
+
+                            </div>
+
+                            <small>
+                                VIEW MODEL →
+                            </small>
+
+                        </div>
+
+                    </button>
+
+
+                    <div class="modelo-fondo">
+                        CAMPUS
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================
+                     MODELO 02
+                ================================= -->
+
+                <div class="modelo-contenedor modelo-derecha">
+
+                    <div class="modelo-info lateral-info">
+
+                        <span class="info-numero">
+                            02
+                        </span>
+
+                        <div class="info-linea"></div>
+
+                        <strong>
+                            CAMPUS 00s
+                        </strong>
+
+                        <span>
+                            BLACK
+                        </span>
+
+                        <small>
+                            ADIDAS
+                        </small>
+
+                        <small>
+                            2026 / COLORWAY 02
+                        </small>
+
+                    </div>
+
+
+                    <button
+                        class="zapato zapato-negro"
+                        data-imagen="fotos/zapato2.jpg"
+                        type="button"
+                    >
+
+                        <div class="numero-modelo">
+                            02
+                        </div>
+
+                        <div class="zapato-imagen">
+
+                            <img
+                                src="fotos/zapato2.jpg"
+                                alt="Adidas Campus 00s negro"
+                            >
+
+                        </div>
+
+                        <div class="zapato-info">
+
+                            <div>
+
+                                <strong>
+                                    CAMPUS 00s
+                                </strong>
+
+                                <span>
+                                    BLACK
+                                </span>
+
+                            </div>
+
+                            <small>
+                                VIEW MODEL →
+                            </small>
+
+                        </div>
+
+                    </button>
+
+
+                    <div class="modelo-fondo">
+                        00s
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================
+                     MODELO 03
+                ================================= -->
+
+                <div class="modelo-contenedor">
+
+                    <div class="modelo-info lateral-info">
+
+                        <span class="info-numero">
+                            03
+                        </span>
+
+                        <div class="info-linea"></div>
+
+                        <strong>
+                            CAMPUS 00s
+                        </strong>
+
+                        <span>
+                            GREY
+                        </span>
+
+                        <small>
+                            ADIDAS
+                        </small>
+
+                        <small>
+                            2026 / COLORWAY 03
+                        </small>
+
+                    </div>
+
+
+                    <button
+                        class="zapato zapato-gris"
+                        data-imagen="fotos/zapato3.jpg"
+                        type="button"
+                    >
+
+                        <div class="numero-modelo">
+                            03
+                        </div>
+
+                        <div class="zapato-imagen">
+
+                            <img
+                                src="fotos/zapato3.jpg"
+                                alt="Adidas Campus 00s gris"
+                            >
+
+                        </div>
+
+                        <div class="zapato-info">
+
+                            <div>
+
+                                <strong>
+                                    CAMPUS 00s
+                                </strong>
+
+                                <span>
+                                    GREY
+                                </span>
+
+                            </div>
+
+                            <small>
+                                VIEW MODEL →
+                            </small>
+
+                        </div>
+
+                    </button>
+
+
+                    <div class="modelo-fondo">
+                        GREY
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================================
+         MODAL
+    ========================================= -->
+
+    <div
+        id="zapatoSeleccionado"
+        class="modal-zapato"
+    >
+
+        <div class="modal-contenido">
+
+            <button
+                id="cerrarZapato"
+                class="cerrar-zapato"
+                type="button"
+                aria-label="Cerrar"
+            >
+                ×
+            </button>
+
+
+            <div class="modal-imagen">
+
+                <img
+                    id="imagenZapato"
+                    src=""
+                    alt="Zapato seleccionado"
+                >
+
+            </div>
+
+
+            <div class="modal-info">
+
+                <p>
+                    SELECTED MODEL
+                </p>
+
+                <h2 id="nombreZapato">
+                    CAMPUS 00s
+                </h2>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
